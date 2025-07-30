@@ -34,3 +34,20 @@ def rpc_health_check(rpc_url):
             return f"❌ RPC failed with status {res.status_code}"
     except Exception as e:
         return f"❌ Error: {e}"
+
+---
+
+## 🔍 Run Monad Wallet Analyzer Online
+
+Use GitHub Codespaces to run it instantly in your browser (no setup needed):
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=naufelaniq%2Fmonad-utils-kit)
+
+### 🧪 Usage inside Codespaces
+
+After opening in Codespaces:
+
+1. Open the terminal (Ctrl+`)
+2. Run the script:
+   ```bash
+   python fingerprint_rpc.py 0xYourWalletAddress
