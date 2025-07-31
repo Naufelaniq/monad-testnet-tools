@@ -37,17 +37,39 @@ def rpc_health_check(rpc_url):
 
 ---
 
-## 🔍 Run Monad Wallet Analyzer Online
+## 🔍 Run Monad Wallet Analyzer Online (No Setup Needed)
 
-Use GitHub Codespaces to run it instantly in your browser (no setup needed):
+You can run this tool in your **browser using GitHub Codespaces** — no need to install Python, pip, or Termux.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=naufelaniq%2Fmonad-utils-kit)
+👉 [Click to Open in Codespaces](https://github.com/codespaces/new?hide_repo_select=true&repo=naufelaniq%2Fmonad-testnet-tools)
+
+---
 
 ### 🧪 Usage inside Codespaces
 
 After opening in Codespaces:
 
-1. Open the terminal (Ctrl+`)
-2. Run the script:
-   ```bash
-   python fingerprint_rpc.py 0xYourWalletAddress
+1. Open the terminal (press `Ctrl + backtick` or click on terminal)
+2. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the tool:
+
+```bash
+python fingerprint_rpc.py 0xYourWalletAddress
+```
+
+---
+
+### ⭐ Example:
+
+```bash
+python fingerprint_rpc.py 0xAF9e50c42b568F668b5a3B2573c7098e5460d174
+```
+
+---
+
+If this helped you, please consider giving the repo a ⭐ on GitHub — it motivates me to build more 🙏
